@@ -1,0 +1,23 @@
+.containerNav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    top: 23px;
+}
+
+.aInfo:not(:last-child) {
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.divImg {
+    display: flex;
+    align-items: center;
+}
+
+.aDiv {
+    display: flex;
+    align-items: center;
+}

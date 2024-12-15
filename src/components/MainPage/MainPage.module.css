@@ -1,0 +1,46 @@
+.mainImg {
+    background-image: url(../../../public/images/image\ 46.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 134px;
+}
+
+.line {
+    height: 516px;
+    width: 1px;
+    background-color: #797979;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(243, 243, 243, 0.6);
+    border-radius: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex span {
+    font-size: 40px;
+}
+
+.imgText {
+    width: 734px;
+    padding: 58px 38px 33px 48px;
+}
+
+.textB {
+    font-weight: 700;
+}
+
+.divSpan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
