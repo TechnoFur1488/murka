@@ -20,14 +20,17 @@ export const MainPage = () => {
                         </div>
                     </div>
                     <div className={s.line}></div>
-                    <div>
-                        <div>
-                            <span><span className={s.textB}>ВОЗРАСТ:</span>9 - 12</span>
-                            <span><span className={s.textB}>ТРЕБОВАНИЯ:</span>Пользователь компьютера</span>
-                            <span><span className={s.textB}>УРОВЕНЬ:</span>Базовый</span>
-                            <span><span className={s.textB}>ПРОДОЛЖИТЕЛЬНОСТЬ:</span>32 урока</span>
+                    <div className={s.flexBot}>
+                        <div className={s.divSpanS} >
+                            <span className={s.textSpan}><span className={s.textBS}>ВОЗРАСТ:</span>9 - 12</span>
+                            <span className={s.textSpan}><span className={s.textBS}>ТРЕБОВАНИЯ:</span>Пользователь компьютера</span>
+                            <span className={s.textSpan}><span className={s.textBS}>УРОВЕНЬ:</span>Базовый</span>
+                            <span className={s.textSpan}><span className={s.textBS}>ПРОДОЛЖИТЕЛЬНОСТЬ:</span>32 урока</span>
                         </div>
-                        <Link>Попробуйте этот курс</Link>
+                        <Link className={s.tryThis}>
+                            <span>Попробуйте этот курс</span>
+                            <img src="/images/image 3.png" alt="" />
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 134px;
+    padding-bottom: 208px;
 }
 
 .line {
@@ -14,10 +15,12 @@
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgba(243, 243, 243, 0.6);
     border-radius: 30px;
+
 }
 
 .flex {
@@ -43,4 +46,55 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 131px;
+}
+
+.divSpan span {
+    background-color: #CDCDCD;
+    padding: 0 30px;
+    border-radius: 22px;
+}
+
+.divSpanS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 32px;
+    width: 700px;
+    height: 332px;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
+}
+
+.textBS {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.textSpan {
+    padding-left: 26px;
+    font-size: 32px;
+    width: 505px;
+}
+
+.flexBot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 539px;
+}
+
+.tryThis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 605px;
+    border-radius: 20px;
+    padding: 35px 55px;
+    background-color: #5988FF;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    box-shadow: -14px 13px rgba(0, 0, 0, 0.25);
 }
