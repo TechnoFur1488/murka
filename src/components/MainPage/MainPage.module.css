@@ -12,7 +12,7 @@
     background-color: #797979;
 }
 
-.container {
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;

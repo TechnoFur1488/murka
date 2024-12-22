@@ -1,15 +1,24 @@
+.sec {
+    padding : 29px 0;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    background-color: white;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .containerNav {
     display: flex;
     justify-content: space-between;
-    max-width: 1440px;
-    margin: 0 auto;
-    position: relative;
-    top: 23px;
 }
 
 .aInfo:not(:last-child) {
     margin-right: 40px;
-    font-weight: 500;
 }
 
 .divImg {
@@ -20,4 +29,17 @@
 .aDiv {
     display: flex;
     align-items: center;
+}
+
+.Try {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 38px;
+    background-color: #5988FF;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
 }

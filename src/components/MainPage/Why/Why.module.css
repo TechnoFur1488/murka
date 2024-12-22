@@ -1,0 +1,23 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 48px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 400px;
+    font-size: 24px;
+}
+
+.last {
+    margin-right: 36%;
+}

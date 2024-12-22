@@ -1,0 +1,45 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.imgList {
+    background-image: url(../../../public/images/Group\ 44.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 48px;
+    width: 631px;
+    height: 361px;
+}
+
+.containerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divText {
+    width: 650px;
+    font-size: 24px;
+}
+
+.divText h2  {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.imgList span {
+    font-size: 24px;
+    color: #565656;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 212px;   
+}
+
+.list li {
+    font-size: 24px;
+}
