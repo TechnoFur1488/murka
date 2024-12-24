@@ -1,0 +1,195 @@
+.sec {
+    padding: 29px 0;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    background-color: white;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.containerNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aInfo:not(:last-child) {
+    margin-right: 40px;
+}
+
+.divImg {
+    display: flex;
+    align-items: center;
+}
+
+.aDiv {
+    display: flex;
+    align-items: center;
+}
+
+.Try {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 38px;
+    background-color: #5988FF;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 41px 0 21px;
+}
+
+.divTetxLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 663px;
+    margin-top: 44px;
+}
+
+.NavLinkFoot {
+    display: flex;
+    flex-direction: column;
+}
+
+.regChil {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 102px 0;
+}
+
+.sectionContainer {
+    background-image: url("../../public/images/Group 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textImg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
+.imgAlex {
+    display: flex;
+    align-items: center;
+}
+
+.footerSpan {
+    padding: 27px 44px;
+    background-color: white;
+    font-size: 64px;
+    font-weight: 500;
+    border-radius: 36px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 958px;
+}
+
+.input p {
+    font-size: 32px;
+    font-weight: 500;
+    width: 655px;
+}
+
+.inputText {
+    padding: 0 28px;
+    font-size: 24px;
+    font-weight: 600;
+    width: 787px;
+    height: 87px;
+    border: none;
+    border-radius: 24px;
+}
+
+.btn {
+    width: 471px;
+    height: 85px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 24px;
+    border: none;
+    background-color: #5988FF;
+    color: white;
+    cursor: pointer;
+}
+
+.color {
+    color: #872828;
+}
+
+.work {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.i {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Контейнер для чекбокса */
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Скрытие стандартного чекбокса */
+.hiddenCheckbox {
+    display: none;
+}
+
+/* Стили кастомного чекбокса */
+.customCheckbox {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000; /* Черная рамка */
+    border-radius: 4px; /* Скругленные углы */
+    background-color: transparent; /* Прозрачный фон */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    position: relative;
+}
+
+/* Галочка для активного состояния */
+.customCheckbox::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: none;
+    background-color: #000; /* Черная галочка */
+    clip-path: polygon(14% 44%, 0% 57%, 50% 100%, 100% 0%, 85% 0%, 50% 79%); /* Форма галочки */
+}
+
+.hiddenCheckbox:checked + .customCheckbox {
+    border-color: #000; /* Оставляем черную рамку при активном состоянии */
+}
+
+.hiddenCheckbox:checked + .customCheckbox::after {
+    display: block;
+}
