@@ -1,0 +1,40 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.span {
+    color: #5988FF;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 38px 43px;
+    width: 300px;
+    height: 226px;
+    background-color: #FFFAE9;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.num {
+    font-size: 48px;
+    font-weight: 600;
+    color: #5988FF;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 600;
+}

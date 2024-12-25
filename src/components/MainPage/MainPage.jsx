@@ -5,6 +5,7 @@ import { SwiperS } from "./Swiper/SwiperS"
 import { Why } from "./Why/Why"
 import { RobloxLand } from "./RobloxLand/RobloxLand"
 import { Program } from "./Program/Program"
+import { Lesson } from "./Lesson/Lesson"
 
 export const MainPage = () => {
     return (
@@ -46,6 +47,7 @@ export const MainPage = () => {
             <Why />
             <RobloxLand />
             <Program />
+            <Lesson />
         </>
     )
 }

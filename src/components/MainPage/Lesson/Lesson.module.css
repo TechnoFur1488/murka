@@ -1,0 +1,40 @@
+.container {
+    max-width: 1440px;
+    margin: 169px auto 120px;
+}
+
+.container h2 {
+    width: 584px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.span {
+    color: #5988FF;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 350px;
+}
+
+.div img {
+    width: 350px;
+}
+
+.divSpan {
+    margin-top: 28px;
+    padding: 13px 20px;
+    border-radius: 27px;
+    border: 1px solid #033CCE;
+    color: #033CCE;
+    font-size: 20px;
+}

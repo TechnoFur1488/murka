@@ -1,0 +1,56 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.topText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topText h2 {
+    font-size: 48px;
+}
+
+.spanColor {
+    color: #5988FF;
+}
+
+.spanRoblox {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.topText span {
+    font-size: 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 450px;
+    height: 496px;
+    padding: 37px 32px;
+    background-color: #FFFAE9;
+    border-radius: 23px;
+    font-size: 20px;
+    margin-bottom: 58px;
+}
+
+.card h3 {
+    font-size: 32px;
+}
+
+
+.span {
+    color: #606060;
+    font-size: 20px;
+}

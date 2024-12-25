@@ -1,0 +1,54 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h2 {
+    width: 743px;
+    font-size: 48px;
+}
+
+.text p {
+    width: 700px;
+    font-size: 24px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 49px 44px;
+    background-color: rgba(240, 243, 255, 1);
+    border-radius: 35px;
+    width: 600px;
+}
+
+.divCard p {
+    font-size: 24px;
+}
+
+.divText {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.divText span {
+    color: #5988FF;
+    font-size: 24px;
+}
+
+.span {
+    color: #5988FF;
+}

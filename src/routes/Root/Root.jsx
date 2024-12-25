@@ -5,6 +5,8 @@ import { useSelector } from 'react-redux'
 
 import { NavLink, Outlet } from "react-router-dom";
 
+import { IMaskInput } from 'react-imask';
+
 export const Root = () => {
     const [check, setCheck] = useState(false);
 
@@ -23,9 +25,9 @@ export const Root = () => {
                     <nav className={s.containerNav}>
                         <NavLink><img src="/images/robloxland.svg" alt="" /></NavLink>
                         <div className={s.aDiv}>
-                            <NavLink className={s.aInfo}>О нас</NavLink>
-                            <NavLink className={s.aInfo}>Курсы</NavLink>
-                            <NavLink className={`${s.aInfo} ${s.Try}`}>Попробовать</NavLink>
+                            <NavLink to={"We"} className={s.aInfo}>О нас</NavLink>
+                            <NavLink to={"Curse"} className={s.aInfo}>Курсы</NavLink>
+                            <button onClick={() => window.scrollTo({top:  document.body.scrollHeight, left: 0, behavior: "smooth"})} className={`${s.aInfo} ${s.Try}`}>Попробовать</button>
                             <NavLink to={"Reg"} className={`${s.aInfo} ${s.divImg}`}>Войти  <img src="/images/Vector.svg" alt="" /></NavLink>
                         </div>
                     </nav>
@@ -52,7 +54,7 @@ export const Root = () => {
                         <input className={s.inputText} placeholder="Имя ребёнка" type="text" />
                         <input className={s.inputText} placeholder="Возраст ребёнка" type="text" />
                         <input className={s.inputText} placeholder="Email" type="email" />
-                        <input className={s.inputText} placeholder="Номер телефона" type="tel" />
+                        <IMaskInput mask={"+{7} (000) 000 00 00 "} className={s.inputText} placeholder="Номер телефона" type="tel" />
                         <div className={s.checkboxContainer}>
                             <div className={s.checkboxWrapper}>
                                 <input
@@ -78,9 +80,8 @@ export const Root = () => {
                         <img src="/images/Group 41.svg" alt="" />
                         <h4>ROBLOXLAND PTE. LTD.68 <br /> CIRCULAR ROAD 02-01 <br /> SINGAPORE (049422)</h4>
                         <div className={s.NavLinkFoot}>
-                            <NavLink>О нас</NavLink>
-                            <NavLink>Курсы</NavLink>
-                            <NavLink>Контакты</NavLink>
+                            <NavLink to={"We"}>О нас</NavLink>
+                            <NavLink to={"Curse"}>Курсы</NavLink>
                         </div>
                     </div>
                     <div className={s.line}></div>

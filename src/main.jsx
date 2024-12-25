@@ -8,8 +8,8 @@ import {
 import { Root } from './routes/Root/Root';
 import { MainPage } from './components/MainPage/MainPage';
 import { Reg } from './components/Reg/Reg';
-import { Provider } from 'react-redux';
-import store from './app/store';
+import { We } from './components/We/We';
+import { Curse } from './components/Curse/Curse';
 
 const router = createBrowserRouter([
 	{
@@ -20,6 +20,14 @@ const router = createBrowserRouter([
 				path: "/",
 				element: <MainPage />
 			},
+			{
+				path: "We",
+				element: <We />
+			},
+			{
+				path: "Curse",
+				element: <Curse />
+			}
 		]
 
 	},
@@ -31,8 +39,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
-		<Provider store={store}>
-			<RouterProvider router={router} />
-		</Provider>
+		<RouterProvider router={router} />
 	</React.StrictMode>
 );

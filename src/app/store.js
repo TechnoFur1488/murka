@@ -1,8 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
+// import { configureStore } from "@reduxjs/toolkit";
 
 
-export default configureStore({
-    reducer: {
-        reg: productSlice
-    }
-})
+// export default configureStore({
+//     reducer: {
+//         reg: productSlice
+//     }
+// })

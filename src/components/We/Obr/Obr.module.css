@@ -1,0 +1,35 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.span {
+    color: #5988FF;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: #D2FF5C;
+    border-radius: 23px;
+}
+
+.card p {
+    margin: 34px 34px;
+    font-size: 24px;
+    font-weight: 600;
+}
